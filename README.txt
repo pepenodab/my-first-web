@@ -12,7 +12,7 @@ docker pull php:7.0-apache
 
 Creation container MySQL
 
-docker run -p 4408:4408 -v C:\Users\Usuario\Desktop\PROYECTOS\my-firstweb\data:/var/lib/mysql --name database -e MYSQL_ROOT_PASSWORD=yourpassword -d mysql:latest
+docker run -p 4408:4408 -v C:\Users\Usuario\Desktop\databases\my-first-web\data:/var/lib/mysql --name database -e MYSQL_ROOT_PASSWORD=yourpassword -d mysql:latest
 
 Creation container PHP
 
